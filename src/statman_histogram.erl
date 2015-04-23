@@ -18,7 +18,7 @@
 
 -export([bin/1]).
 
--compile([native]).
+%% -compile([native]).
 
 -define(TABLE, statman_histograms).
 
